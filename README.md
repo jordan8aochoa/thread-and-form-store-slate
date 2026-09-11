@@ -1,5 +1,9 @@
 # Thread & Form
 
+**Slate edition:** bold sans-serif typography, cool gray backgrounds, charcoal text, and deep blue accents. This is an alternative visual theme with the same store features and setup process.
+
+Choose one version to launch: [Slate edition](https://github.com/jordan8aochoa/thread-and-form-store-slate) or [original warm edition](https://github.com/jordan8aochoa/thread-and-form-store). Deploy only your chosen copy and connect your own service accounts as described below.
+
 A single-brand sweater store built with Next.js App Router, TypeScript, Tailwind CSS, Supabase, Stripe Checkout, EasyPost, Resend, and Zod. Guest checkout is the default. The starter brand, products, photographs, policies, and address are examples to replace before launch.
 
 The application runs locally without provider credentials as a sample storefront. Real checkout, admin access, database writes, shipping, and email require configuration. Sample browsing is not a simulated payment system: no order should be described as paid because a customer reached a success page.

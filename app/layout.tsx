@@ -6,7 +6,7 @@ import { Footer } from '@/components/footer';
 import { getSettings } from '@/lib/catalog';
 import { configured } from '@/lib/server/db';
 export const dynamic = 'force-dynamic';
-export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#f8f7f3' };
+export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#f3f5f6' };
 export async function generateMetadata(): Promise<Metadata> {
   const settings = await getSettings();
   const description =

@@ -152,7 +152,7 @@ export function Shop({
           <div className="filter-group">
             <label htmlFor="price-range">Price · up to {money(filters.maxPrice)}</label>
             <input
-              className="w-full accent-[#5d6752]"
+              className="w-full accent-accent"
               id="price-range"
               type="range"
               min="0"

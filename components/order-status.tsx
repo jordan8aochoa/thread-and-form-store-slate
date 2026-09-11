@@ -105,7 +105,7 @@ export function OrderStatus({ token }: { token: string }) {
             {order.shipments.map((shipment, i) => (
               <div
                 key={`${shipment.tracking_code}-${i}`}
-                className="mt-6 border-t border-[#dcded5] pt-5"
+                className="mt-6 border-t border-[var(--line)] pt-5"
               >
                 <p className="text-sm mb-2">
                   {shipment.carrier} · {shipment.service}
@@ -165,7 +165,7 @@ export function OrderStatus({ token }: { token: string }) {
             <span>Tax</span>
             <span>{money(order.tax_cents)}</span>
           </div>
-          <div className="subtotal-row border-t border-[#cdd1c3] pt-4">
+          <div className="subtotal-row border-t border-[var(--line)] pt-4">
             <strong>Order total</strong>
             <strong>{money(order.total_cents)}</strong>
           </div>

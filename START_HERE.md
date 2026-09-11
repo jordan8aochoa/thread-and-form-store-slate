@@ -1,5 +1,7 @@
 # Make this your store
 
+This copy is the **Slate edition**, with bold sans-serif type and a charcoal/deep-blue palette. The [original warm edition](https://github.com/jordan8aochoa/thread-and-form-store) remains available separately. Both have the same ecommerce features; pick the appearance you prefer and follow this guide for that copy.
+
 This repository is a complete application starter for a single-brand sweater store. You own the accounts you connect, the product catalog, the code, and the domain. The included Thread & Form branding and six demo products are replaceable examples.
 
 **No service credentials, original-owner accounts, customer data, payments, or shipping labels are included.** You will create your own accounts below. Keep the app in test mode until you finish the launch checklist.
@@ -9,8 +11,8 @@ This repository is a complete application starter for a single-brand sweater sto
 If you received a ZIP, extract it and open a terminal in the extracted folder containing `package.json`. If you have access to the private GitHub repository, clone it:
 
 ```sh
-git clone https://github.com/jordan8aochoa/thread-and-form-store.git
-cd thread-and-form-store
+git clone https://github.com/jordan8aochoa/thread-and-form-store-slate.git
+cd thread-and-form-store-slate
 ```
 
 The ZIP works without access to the original owner's GitHub account. To put your extracted copy in your own GitHub account, create an empty private repository there, then run these commands in the extracted folder:

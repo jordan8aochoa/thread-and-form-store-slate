@@ -60,7 +60,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         <span>{product.name}</span>
       </nav>
       <ProductDetail product={product} />
-      <section className="section border-t border-[#dcded5]">
+      <section className="section border-t border-[var(--line)]">
         <div className="section-heading">
           <h2>Good together.</h2>
           <Link className="text-link" href="/shop">

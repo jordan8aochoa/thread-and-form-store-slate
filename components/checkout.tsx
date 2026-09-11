@@ -303,7 +303,7 @@ export function Checkout({ enabled }: { enabled: boolean }) {
                 <label className="flex gap-3 mt-5 text-xs items-start">
                   <input
                     type="checkbox"
-                    className="mt-1 accent-[#5d6752]"
+                    className="mt-1 accent-accent"
                     checked={confirmed}
                     onChange={(e) => setConfirmed(e.target.checked)}
                   />
@@ -409,7 +409,7 @@ export function Checkout({ enabled }: { enabled: boolean }) {
               <span>Tax</span>
               <span className="text-xs">Calculated at payment</span>
             </div>
-            <div className="subtotal-row pt-4 border-t border-[#cdd1c3]">
+            <div className="subtotal-row pt-4 border-t border-[var(--line)]">
               <strong>Before tax</strong>
               <strong>
                 {money(
