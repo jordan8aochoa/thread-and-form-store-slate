@@ -2,7 +2,7 @@
 
 This copy is the **Slate edition**, with bold sans-serif type and a charcoal/deep-blue palette. The [original warm edition](https://github.com/jordan8aochoa/thread-and-form-store) remains available separately. Both have the same ecommerce features; pick the appearance you prefer and follow this guide for that copy.
 
-This repository is a complete application starter for a single-brand sweater store. You own the accounts you connect, the product catalog, the code, and the domain. The included Thread & Form branding and six demo products are replaceable examples.
+This repository is a complete application starter for the RallyThreads embroidered-goods store. You own the accounts you connect, the product catalog, the code, and the domain. The six demo products are replaceable examples.
 
 **No service credentials, original-owner accounts, customer data, payments, or shipping labels are included.** You will create your own accounts below. Keep the app in test mode until you finish the launch checklist.
 

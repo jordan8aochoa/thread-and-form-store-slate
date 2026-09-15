@@ -4,7 +4,7 @@ This is the configuration and operational acceptance checklist. Local tests and 
 
 ## Store and product readiness
 
-- [ ] Replace Thread & Form branding, logo, announcement, social links, and support address.
+- [ ] Add the final RallyThreads logo, announcement, social links, and support address.
 - [ ] Replace the example ship-from/return address with a verified staffed address and real contact information.
 - [ ] Replace sample photographs and descriptions with accurate product photographs, materials, care instructions, category, size guide, and fit information.
 - [ ] Confirm prices, sale prices, every variant SKU, available inventory, and measured item weights.

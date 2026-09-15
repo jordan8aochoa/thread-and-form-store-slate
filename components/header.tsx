@@ -67,7 +67,7 @@ export function Header({
             <Link
               href="/shop?focus=search"
               className="icon-button desktop-link"
-              aria-label="Search sweaters"
+              aria-label="Search embroidered goods"
             >
               <Search size={18} />
             </Link>

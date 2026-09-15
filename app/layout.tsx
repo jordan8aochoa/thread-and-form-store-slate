@@ -10,11 +10,11 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, them
 export async function generateMetadata(): Promise<Metadata> {
   const settings = await getSettings();
   const description =
-    'Thoughtfully simple sweaters and everyday layers. Discover soft knits, relaxed shapes, and your next daily favorite.';
+    'Custom embroidered goods made for teams, milestones, gifts, and everyday favorites.';
   return {
     metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://127.0.0.1:3006'),
     title: {
-      default: `${settings.brand_name} — Good things, made to stay.`,
+      default: `${settings.brand_name} — Your story, stitched to last.`,
       template: `%s | ${settings.brand_name}`,
     },
     description,
@@ -23,8 +23,21 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: settings.brand_name,
       title: settings.brand_name,
       description,
+      images: [
+        {
+          url: '/og.png',
+          width: 1672,
+          height: 941,
+          alt: 'RallyThreads — Your story, stitched to last.',
+        },
+      ],
     },
-    twitter: { card: 'summary_large_image', title: settings.brand_name, description },
+    twitter: {
+      card: 'summary_large_image',
+      title: settings.brand_name,
+      description,
+      images: ['/og.png'],
+    },
   };
 }
 export default async function RootLayout({ children }: { children: React.ReactNode }) {

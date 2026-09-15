@@ -1,13 +1,13 @@
 import type { Product, StoreSettings } from '@/lib/types';
 export const defaultSettings: StoreSettings = {
   id: 'store',
-  brand_name: 'Thread & Form',
-  tagline: 'Good things, made to stay.',
+  brand_name: 'RallyThreads',
+  tagline: 'Your story, stitched to last.',
   logo_url: '',
   support_email: 'hello@example.com',
   owner_email: 'owner@example.com',
   return_address: {
-    name: 'Thread & Form',
+    name: 'RallyThreads',
     street1: '123 Example Street',
     street2: '',
     city: 'Chicago',
@@ -16,15 +16,15 @@ export const defaultSettings: StoreSettings = {
     country: 'US',
   },
   free_shipping_threshold_cents: 20000,
-  announcement: 'A little warmth goes a long way. Meet your new everyday knits.',
+  announcement: 'Custom embroidery, made for the moments worth rallying around.',
   social_links: {},
 };
 const names = [
-  'The Everyday Crew',
-  'The Weekend Cardigan',
-  'The Alpine Cable',
+  'The Rally Crew',
+  'The Club Cardigan',
+  'The Heritage Cable',
   'The Studio Mockneck',
-  'The Soft Rib Polo',
+  'The Varsity Polo',
   'The Sunday V-neck',
 ];
 const slugs = [
@@ -52,14 +52,14 @@ export const demoProducts: Product[] = names.map((name, i) => {
     name,
     slug: slugs[i],
     description:
-      'An easy layer for slow mornings and everything after. A soft, substantial knit with a relaxed shape, thoughtful proportions, and ribbed finishing. Designed to find its way into your everyday rotation.\n\nDemo product: replace this description, fiber content, care instructions, and photography with verified details before launch.',
+      'An easy layer with room for a story of your own. Soft, substantial, and finished with thoughtful proportions, it is designed to showcase embroidered details and settle into your everyday rotation.\n\nDemo product: replace this description, materials, embroidery details, care instructions, and photography with verified information before launch.',
     category: i === 1 ? 'Cardigans' : i === 4 ? 'Polos' : 'Sweaters',
     price_cents: prices[i],
     sale_price_cents: i === 4 ? 8800 : null,
     active: true,
     featured: i < 3,
     seo_title: name,
-    seo_description: 'An effortless everyday knit from Thread & Form.',
+    seo_description: 'An embroidered everyday favorite from RallyThreads.',
     created_at: `2026-09-0${6 - i}T12:00:00Z`,
     product_images: [
       {
@@ -83,7 +83,7 @@ export const demoProducts: Product[] = names.map((name, i) => {
         product_id: id,
         size,
         color,
-        sku: `TF-${i + 1}-${size}-${k}`,
+        sku: `RT-${i + 1}-${size}-${k}`,
         price_override_cents: null,
         inventory_quantity: i === 5 ? 0 : j === 2 ? 3 : 12,
         weight_oz: 18 + i * 2,

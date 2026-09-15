@@ -65,7 +65,7 @@ export async function POST(request: Request) {
       to: input.email,
       payload: {
         message:
-          'Welcome to our little corner. You’re subscribed for new knits, small stories, and occasional updates. Use the link below if you ever want to unsubscribe.',
+          'Welcome to RallyThreads. You’re subscribed for new drops, stitched stories, and occasional updates. Use the link below if you ever want to unsubscribe.',
         url: `${appUrl()}/newsletter/unsubscribe?token=${capability}`,
       },
     });

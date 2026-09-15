@@ -3,7 +3,7 @@ import { getProducts } from '@/lib/catalog';
 import { Shop } from '@/components/shop';
 export const metadata: Metadata = {
   title: 'The collection',
-  description: 'Meet your everyday favorites. Shop sweaters, cardigans, and thoughtful layers.',
+  description: 'Shop embroidered layers and personalized everyday goods from RallyThreads.',
 };
 export default async function ShopPage({
   searchParams,
@@ -16,7 +16,7 @@ export default async function ShopPage({
       <div className="page-intro">
         <p className="eyebrow">Good things, on repeat</p>
         <h1>The everyday collection.</h1>
-        <p>Beautifully simple knits. Easy to wear, easy to love.</p>
+        <p>Personal details, carefully stitched. Easy to wear, easy to love.</p>
       </div>
       <Shop
         products={await getProducts()}

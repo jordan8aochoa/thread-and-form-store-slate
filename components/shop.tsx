@@ -193,7 +193,7 @@ export function Shop({
           {!filtered.length && (
             <div className="empty-state">
               <h2>A fresh start?</h2>
-              <p className="muted text-sm">No knits match these filters just yet.</p>
+              <p className="muted text-sm">No goods match these filters just yet.</p>
               <button className="button button-secondary" onClick={reset}>
                 Clear filters
               </button>

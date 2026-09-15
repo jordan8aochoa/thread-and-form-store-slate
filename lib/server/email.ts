@@ -44,7 +44,7 @@ const titles: Record<string, string> = {
   owner_contact: 'A new customer message',
   order_lookup: 'Your secure order link',
   label_failed: 'Shipping label needs attention',
-  newsletter: 'Welcome to Thread & Form',
+  newsletter: 'Welcome to RallyThreads',
 };
 const messages: Record<string, string> = {
   order_confirmation:
@@ -60,7 +60,7 @@ const messages: Record<string, string> = {
   label_failed:
     'The shipping provider did not confirm a label purchase. Open this order and retry the existing shipment to reconcile its result.',
 };
-export function renderEmail(kind: string, payload: Payload, brand = 'Thread & Form') {
+export function renderEmail(kind: string, payload: Payload, brand = 'RallyThreads') {
   const title = titles[kind] ?? 'An update from your store';
   const items = Array.isArray(payload.items) ? (payload.items as Record<string, unknown>[]) : [];
   const safeUrl =

@@ -7,15 +7,15 @@ export const policies: Record<
     title: 'Made for the in-between.',
     eyebrow: 'A little about us',
     intro:
-      'The morning coffee. The long way home. The extra layer you bring just in case. Thread & Form begins with these ordinary moments.',
+      'The team you found, the place you love, the milestone you earned. RallyThreads begins with the stories we choose to carry with us.',
     sections: [
       {
-        title: 'A quieter wardrobe',
-        text: 'Our idea is simple: thoughtful shapes, inviting texture, and pieces you look forward to wearing again. We believe getting dressed can feel easy, personal, and a little more considered.',
+        title: 'A story in every stitch',
+        text: 'Our idea is simple: thoughtful goods, tactile detail, and embroidery that makes a familiar piece feel personal. The best favorites say something about who you are and what you rally around.',
       },
       {
-        title: 'The everyday collection',
-        text: 'From a familiar crewneck to a relaxed cardigan, our collection makes room for your own way of wearing things. Explore the details, find your fit, and make it yours.',
+        title: 'The Rally collection',
+        text: 'From familiar crewnecks to giftable goods, our collection makes room for your people, places, and moments. Explore the details, find your fit, and make it yours.',
       },
       {
         title: 'A brand in the making',
@@ -51,7 +51,7 @@ export const policies: Record<
     title: 'Let’s find the right fit.',
     eyebrow: 'Returns & refunds',
     intro:
-      'We want you to feel good in your sweater. This is draft policy wording for the store owner to review before launch.',
+      'We want you to feel good about your RallyThreads order. This is draft policy wording for the store owner to review before launch.',
     sections: [
       {
         title: 'Requesting a return',
@@ -160,8 +160,8 @@ export const faq = [
       'We’ll email you when your parcel ships. You can also use Find your order to receive a secure link with tracking and fulfillment updates.',
   },
   {
-    question: 'How should I care for my sweater?',
+    question: 'How should I care for embroidery?',
     answer:
-      'Follow the care label on your garment. Folding rather than hanging helps knits keep their shape. See each product description for any specific care instructions.',
+      'Follow the care label on your item, wash embroidered garments inside out on a gentle cycle, and avoid ironing directly over the stitching. See each product description for specific care instructions.',
   },
 ];

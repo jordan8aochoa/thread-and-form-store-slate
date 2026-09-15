@@ -182,7 +182,7 @@ export function ProductDetail({ product }: { product: Product }) {
             <summary>A little care goes a long way</summary>
             <p>
               Always follow your garment’s care label. Air between wears, fold to store, and use a
-              gentle sweater comb for natural pilling.
+              gentle fabric comb for natural pilling. Do not iron directly over embroidery.
             </p>
           </details>
           <details>
@@ -217,7 +217,7 @@ export function ProductDetail({ product }: { product: Product }) {
           Sample body measurements in inches. Replace with your brand’s measurements before launch.
         </p>
         <table>
-          <caption className="sr-only">Sample sweater size guide</caption>
+          <caption className="sr-only">Sample garment size guide</caption>
           <thead>
             <tr>
               <th>Size</th>

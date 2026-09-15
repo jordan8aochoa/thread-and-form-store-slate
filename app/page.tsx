@@ -12,19 +12,19 @@ export default async function Home() {
     <>
       <section className="hero">
         <div className="hero-copy">
-          <span className="eyebrow">The art of the everyday</span>
+          <span className="eyebrow">Made personal, stitch by stitch</span>
           <h1>
-            A softer way
+            Your story,
             <br />
-            to <em>show up.</em>
+            <em>stitched to last.</em>
           </h1>
           <p>
-            Easy shapes. Beautiful texture. Sweaters that feel like you, from the very first wear.
+            Embroidered goods for teams, milestones, gifts, and the everyday moments worth keeping.
           </p>
           <Link className="button" href="/shop">
-            Find your everyday <ArrowRight size={16} />
+            Shop embroidered goods <ArrowRight size={16} />
           </Link>
-          <span className="hero-number">THE EVERYDAY COLLECTION &nbsp; / &nbsp; VOL. 01</span>
+          <span className="hero-number">THE RALLY COLLECTION &nbsp; / &nbsp; VOL. 01</span>
         </div>
         <div className="hero-media">
           <Image
@@ -32,7 +32,7 @@ export default async function Home() {
               products[0]?.product_images[0]?.url ||
               'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1400&q=85'
             }
-            alt="Soft knitwear in natural light"
+            alt="An embroidered everyday layer in natural light"
             fill
             priority
             sizes="(max-width: 700px) 100vw, 55vw"
@@ -41,7 +41,7 @@ export default async function Home() {
             href={products[0] ? `/products/${products[0].slug}` : '/shop'}
             className="hero-caption"
           >
-            <span>Less effort. More everyday.</span>
+            <span>Made personal. Worn proudly.</span>
             <ArrowRight size={18} />
           </Link>
         </div>
@@ -49,7 +49,7 @@ export default async function Home() {
       <div className="container promise-strip">
         <div>
           <Leaf size={15} />
-          <span>Thoughtfully chosen. Easily worn.</span>
+          <span>Thoughtfully designed. Carefully stitched.</span>
         </div>
         <div>
           <Package size={15} />
@@ -57,7 +57,7 @@ export default async function Home() {
         </div>
         <div>
           <Heart size={15} />
-          <span>Good things, made to stay.</span>
+          <span>Your story, stitched to last.</span>
         </div>
       </div>
       <section className="container section">
@@ -88,23 +88,23 @@ export default async function Home() {
               products[0]?.product_images[0]?.url ||
               'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1400&q=85'
             }
-            alt="The texture and quiet details of everyday knitwear"
+            alt="The texture and detail of embroidered apparel"
             fill
             sizes="(max-width: 700px) 100vw, 50vw"
           />
         </div>
         <div className="story-copy">
-          <p className="eyebrow">A considered kind of comfort</p>
+          <p className="eyebrow">A more personal kind of favorite</p>
           <h2>
-            Fewer things.
+            Meaningful details.
             <br />
-            More favorites.
+            Made to rally around.
           </h2>
           <p>
-            We’re here for the sweater by the door. The one you bring just in case. The one that
-            makes an ordinary day feel a little more like you.
+            We’re here for the pieces that carry a team, a place, a milestone, or an inside story
+            wherever you go.
           </p>
-          <p>Simple pieces, with a little more thought.</p>
+          <p>Everyday goods, made unmistakably yours.</p>
           <Link href="/about" className="text-link mt-3">
             A little about us <ArrowRight size={15} />
           </Link>

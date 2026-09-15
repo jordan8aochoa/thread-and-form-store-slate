@@ -8,7 +8,7 @@ export function Newsletter() {
     <section className="newsletter" aria-labelledby="newsletter-title">
       <p className="eyebrow">A note from us, now and then</p>
       <h2 id="newsletter-title">Keep good company.</h2>
-      <p>New knits, small stories, and a little inspiration. Straight to your inbox.</p>
+      <p>New drops, stitched stories, and a little inspiration. Straight to your inbox.</p>
       <form
         onSubmit={async (e) => {
           e.preventDefault();

@@ -17,7 +17,7 @@ export function Footer({
               {brand}
             </Link>
             <p>
-              Thoughtfully simple knits.
+              Custom embroidery for the things worth remembering.
               <br />
               For all the days in between.
             </p>

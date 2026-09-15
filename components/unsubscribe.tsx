@@ -10,7 +10,7 @@ export function Unsubscribe({ token, rejoin = false }: { token: string; rejoin?:
       <h1>{rejoin ? 'Good company, again.' : 'A little less mail.'}</h1>
       <p>
         {rejoin
-          ? 'Confirm below to receive new knits, small stories, and occasional updates. You can unsubscribe anytime.'
+          ? 'Confirm below to receive new drops, stitched stories, and occasional updates. You can unsubscribe anytime.'
           : 'Confirm below to stop receiving our newsletter. You’ll still receive essential updates for any orders you place.'}
       </p>
       <button
